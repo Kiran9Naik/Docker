@@ -6,4 +6,4 @@ MAINTAINER director kiran naik
 
 COPY . .
 
-RUN ["sh", "python python.py && /bin/bash"]
+RUN sh -c "python python.py && /bin/bash"
